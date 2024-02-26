@@ -1,0 +1,40 @@
+{
+  "name": "e-commerce",
+  "version": "0.0.1",
+  "description": "RESTful API built with Node.js and express framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffeVargasP/e-commerce.git"
+  },
+  "keywords": [
+    "API",
+    "RESTful",
+    "Node.js",
+    "Nodejs",
+    "Express"
+  ],
+  "author": "JeffeVargasP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeffeVargasP/e-commerce/issues"
+  },
+  "homepage": "https://github.com/JeffeVargasP/e-commerce#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0"
+  }
+}
